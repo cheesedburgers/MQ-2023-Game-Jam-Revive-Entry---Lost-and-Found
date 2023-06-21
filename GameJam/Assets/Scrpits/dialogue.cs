@@ -17,7 +17,6 @@ public class dialogue : MonoBehaviour
     {
         textComponent.text = string.Empty;
         StartDialogue();
-        
     }
 
     // Update is called once per frame

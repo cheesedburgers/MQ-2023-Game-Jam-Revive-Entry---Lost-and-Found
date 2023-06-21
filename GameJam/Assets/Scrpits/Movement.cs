@@ -18,6 +18,7 @@ public class Movement : MonoBehaviour
     private float dy;
     private Rigidbody rb;
     private Quaternion lastDirection;
+    public GameObject inputFieldHolder;
 
     
 
@@ -72,7 +73,7 @@ public class Movement : MonoBehaviour
            if(talk)
            {
               Debug.Log("it works");
-              startText = true;
+              inputFieldHolder.SetActive(true);
            }
         }
     }
