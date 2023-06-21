@@ -11,6 +11,7 @@ public class Movement : MonoBehaviour
     [SerializeField] private float terminalVelocity = -1;
     private groundCheck groundcheck;
     private bool jump;
+    private bool canTalk;
     private float dx;
     private float dy;
     private Rigidbody rb;
@@ -40,7 +41,7 @@ public class Movement : MonoBehaviour
         {
             transform.rotation = lastDirection;     //stop player from continously rotating when there is no input
         }
-// this should work
+
         if(jump && groundcheck.isGrounded)
         {
             rb.velocity = Vector3.up * jumpHeight;
@@ -49,6 +50,22 @@ public class Movement : MonoBehaviour
         if(rb.velocity.y <= terminalVelocity)
         {
             rb.velocity = new Vector3(rb.velocity.x, terminalVelocity, rb.velocity.z);
+        }
+    }
+
+     void OnTriggerEnter(Collider col)
+    {
+        if(col.CompareTag("NPC"))
+        {
+            canTalk = true;
+            Debug.Log("it works");
+        }
+    }
+    void OnTriggerExit(Collider col)
+    {
+        if(col.CompareTag("NPC"))
+        {
+            canTalk = false;
         }
     }
 }
