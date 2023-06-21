@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-public class Player : MonoBehaviour
+public class Movement : MonoBehaviour
 {
     [Header("Movement")]
     [SerializeField] private float speed = 10;
     [SerializeField] private float jumpHeight = 5;
     [SerializeField] private float terminalVelocity = -1;
-    // private GroundCheck groundCheck;
-    private bool insideTeleporter;
+    private groundCheck groundcheck;
     private bool jump;
     private float dx;
     private float dy;
@@ -20,7 +19,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-     //   groundCheck = transform.GetComponentInChildren<GroundCheck>();
+       groundcheck = transform.GetComponentInChildren<groundCheck>();
     }
 
     void Update()
@@ -41,8 +40,8 @@ public class Player : MonoBehaviour
         {
             transform.rotation = lastDirection;     //stop player from continously rotating when there is no input
         }
-
-        if(jump)
+// this should work
+        if(jump && groundcheck.isGrounded)
         {
             rb.velocity = Vector3.up * jumpHeight;
         }//Check if something in the ground layer is near the Player's feet
