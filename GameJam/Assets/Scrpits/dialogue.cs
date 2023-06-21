@@ -9,6 +9,7 @@ public class dialogue : MonoBehaviour
     public Text textComponent;
     public string[] lines;
     public float textSpeed;
+    [SerializeField] private Movement player;
 
     private int index;
     // Start is called before the first frame update
@@ -22,7 +23,13 @@ public class dialogue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetAxis(InputAxes.Talk)> 0)
+        if(player.getText)
+        {
+            gameObject.SetActive(true);
+            Debug.Log("should be working");
+        }
+
+        if(Input.GetMouseButtonDown(0))
         {
             if(textComponent.text == lines[index])
             {

@@ -11,16 +11,30 @@ public class Movement : MonoBehaviour
     [SerializeField] private float terminalVelocity = -1;
     private groundCheck groundcheck;
     private bool jump;
+    private bool talk;
     private bool canTalk;
+    private bool startText;
     private float dx;
     private float dy;
     private Rigidbody rb;
     private Quaternion lastDirection;
 
+    
+
+    public bool getText
+    {
+        get
+        {
+          return startText;
+        }
+
+    }
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-       groundcheck = transform.GetComponentInChildren<groundCheck>();
+        groundcheck = transform.GetComponentInChildren<groundCheck>();
+        startText = false;
     }
 
     void Update()
@@ -28,6 +42,7 @@ public class Movement : MonoBehaviour
         dx = Input.GetAxis(InputAxes.Horizontal);
         dy = Input.GetAxis(InputAxes.Vertical);
         jump = Input.GetButtonDown(InputAxes.Jump);
+        talk = Input.GetButtonDown(InputAxes.Talk);
 
         rb.velocity = new Vector3(dx*speed,rb.velocity.y, dy*speed);
 
@@ -51,6 +66,15 @@ public class Movement : MonoBehaviour
         {
             rb.velocity = new Vector3(rb.velocity.x, terminalVelocity, rb.velocity.z);
         }
+
+        if(canTalk)
+        {
+           if(talk)
+           {
+              Debug.Log("it works");
+              startText = true;
+           }
+        }
     }
 
      void OnTriggerEnter(Collider col)
@@ -58,7 +82,6 @@ public class Movement : MonoBehaviour
         if(col.CompareTag("NPC"))
         {
             canTalk = true;
-            Debug.Log("it works");
         }
     }
     void OnTriggerExit(Collider col)
