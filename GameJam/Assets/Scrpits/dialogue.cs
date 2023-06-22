@@ -10,6 +10,7 @@ public class dialogue : MonoBehaviour
     public string[] lines;
     public float textSpeed;
     [SerializeField] private Movement player;
+    [SerializeField] private  AudioSource audioData;
 
     private int index;
     // Start is called before the first frame update
@@ -61,6 +62,7 @@ public class dialogue : MonoBehaviour
         {
             index++;
             textComponent.text = string.Empty;
+            audioData.Play();
             StartCoroutine(TypeLine());
         } else {
             gameObject.SetActive(false);
