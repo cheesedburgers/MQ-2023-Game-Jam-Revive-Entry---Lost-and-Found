@@ -215,7 +215,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1175699027
 GameObject:
@@ -340,7 +340,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: -44.807, y: 50.497, z: 50.372}
 --- !u!1001 &1300182567
 PrefabInstance:
@@ -351,7 +351,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b9202bac300b4e546a054e7dab162630, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b9202bac300b4e546a054e7dab162630, type: 3}
       propertyPath: m_LocalPosition.x
@@ -397,77 +397,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sherlock Holmes
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b9202bac300b4e546a054e7dab162630, type: 3}
---- !u!1001 &1351739490
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -10.317244
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 5.297987
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -10.616587
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
-      propertyPath: m_Name
-      value: Sherlock Holmes_Walk
-      objectReference: {fileID: 0}
-    - target: {fileID: 5866666021909216657, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
+    - target: {fileID: 5866666021909216657, guid: b9202bac300b4e546a054e7dab162630, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: eaf89a3ec4a30fe43a053787ad73db8d, type: 2}
-    - target: {fileID: 7460198527131179126, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.008750695
-      objectReference: {fileID: 0}
-    - target: {fileID: 7460198527131179126, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.09581035
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 9100000, guid: 6146b57127938d049a49f3edb6b647dd, type: 2}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: b9202bac300b4e546a054e7dab162630, type: 3}
 --- !u!1001 &1631302526
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -481,7 +416,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ede0cca93cecee44a91e7d0c2ea09c55, type: 2}
     - target: {fileID: -8679921383154817045, guid: ef0ad62bac709a643a6d36b4bd7c7769, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ef0ad62bac709a643a6d36b4bd7c7769, type: 3}
       propertyPath: m_LocalPosition.x
@@ -687,7 +622,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 49.775, y: 54.147, z: -3.145}
 --- !u!1 &2019208188
 GameObject:
@@ -781,5 +716,5 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
