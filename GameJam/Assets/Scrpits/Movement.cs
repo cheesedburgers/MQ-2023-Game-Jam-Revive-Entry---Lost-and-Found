@@ -47,6 +47,8 @@ public class Movement : MonoBehaviour
 
         rb.velocity = new Vector3(dx*speed,rb.velocity.y, dy*speed);
 
+     
+
         if(dx != 0 || dy != 0)
         {
             Vector3 rotationDirection = Quaternion.Euler(0,0,0) * new Vector3(dx, 0, dy);
