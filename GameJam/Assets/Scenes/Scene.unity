@@ -215,7 +215,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1175699027
 GameObject:
@@ -340,8 +340,134 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: -44.807, y: 50.497, z: 50.372}
+--- !u!1001 &1300182567
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b9202bac300b4e546a054e7dab162630, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b9202bac300b4e546a054e7dab162630, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.676306
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b9202bac300b4e546a054e7dab162630, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.297987
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b9202bac300b4e546a054e7dab162630, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.194479
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b9202bac300b4e546a054e7dab162630, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b9202bac300b4e546a054e7dab162630, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b9202bac300b4e546a054e7dab162630, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b9202bac300b4e546a054e7dab162630, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b9202bac300b4e546a054e7dab162630, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b9202bac300b4e546a054e7dab162630, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b9202bac300b4e546a054e7dab162630, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b9202bac300b4e546a054e7dab162630, type: 3}
+      propertyPath: m_Name
+      value: Sherlock Holmes
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b9202bac300b4e546a054e7dab162630, type: 3}
+--- !u!1001 &1351739490
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.317244
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.297987
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.616587
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
+      propertyPath: m_Name
+      value: Sherlock Holmes_Walk
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: eaf89a3ec4a30fe43a053787ad73db8d, type: 2}
+    - target: {fileID: 7460198527131179126, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.008750695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7460198527131179126, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.09581035
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aacc2cf4483f90945a6723f8c55b10de, type: 3}
 --- !u!1001 &1631302526
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -355,7 +481,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ede0cca93cecee44a91e7d0c2ea09c55, type: 2}
     - target: {fileID: -8679921383154817045, guid: ef0ad62bac709a643a6d36b4bd7c7769, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ef0ad62bac709a643a6d36b4bd7c7769, type: 3}
       propertyPath: m_LocalPosition.x
@@ -397,15 +523,39 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6196904530102573466, guid: ef0ad62bac709a643a6d36b4bd7c7769, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ede0cca93cecee44a91e7d0c2ea09c55, type: 2}
+    - target: {fileID: -1692994395346253101, guid: ef0ad62bac709a643a6d36b4bd7c7769, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ede0cca93cecee44a91e7d0c2ea09c55, type: 2}
+    - target: {fileID: 231853122009044405, guid: ef0ad62bac709a643a6d36b4bd7c7769, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ede0cca93cecee44a91e7d0c2ea09c55, type: 2}
     - target: {fileID: 919132149155446097, guid: ef0ad62bac709a643a6d36b4bd7c7769, type: 3}
       propertyPath: m_Name
       value: Sherlock Holmes Level Design
       objectReference: {fileID: 0}
+    - target: {fileID: 3353032060521708945, guid: ef0ad62bac709a643a6d36b4bd7c7769, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c67fd5bd76251b540b1925897ed6f98f, type: 2}
     - target: {fileID: 5471641271789393013, guid: ef0ad62bac709a643a6d36b4bd7c7769, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ede0cca93cecee44a91e7d0c2ea09c55, type: 2}
     - target: {fileID: 6968995813595412834, guid: ef0ad62bac709a643a6d36b4bd7c7769, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ede0cca93cecee44a91e7d0c2ea09c55, type: 2}
+    - target: {fileID: 7360274970323237845, guid: ef0ad62bac709a643a6d36b4bd7c7769, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ede0cca93cecee44a91e7d0c2ea09c55, type: 2}
+    - target: {fileID: 7738408077737888946, guid: ef0ad62bac709a643a6d36b4bd7c7769, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ede0cca93cecee44a91e7d0c2ea09c55, type: 2}
@@ -506,7 +656,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 36.9
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -515,7 +665,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
+  m_TargetDisplay: 4
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
@@ -531,14 +681,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994279459}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.36325082, y: 0.42299664, z: -0.21363151, w: 0.8021746}
+  m_LocalPosition: {x: -29.09, y: 26.82, z: -15.34}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 49.775, y: 54.147, z: -3.145}
 --- !u!1 &2019208188
 GameObject:
   m_ObjectHideFlags: 0
@@ -631,5 +781,5 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
